@@ -335,15 +335,15 @@ const InnerHomePage = () => {
                                 <div className="col-lg-8 order-lg-2 order-1 mb-lg-0 mb-5">
                                     <div className="row">
                                         <div className="col-md-6 mb-md-0 mb-5">
-                                            <label for="full_name" className="test_desc">Full Name*</label>
+                                            <label className="test_desc">Full Name*</label>
                                             <input type="text" name="full_name" id="fName" className="w-100" />
                                         </div>
                                         <div className="col-md-6">
-                                            <label for="company" className="test_desc">Company*</label>
+                                            <label className="test_desc">Company*</label>
                                             <input type="text" name="company" id="company" className="w-100" />
                                         </div>
                                         <div className="col-12">
-                                            <label for="how_can" className="test_desc my-5">How can I help you?*</label>
+                                            <label className="test_desc my-5">How can I help you?*</label>
                                             <input type="text" name="how_can" id="how_can" className="w-100" />
                                         </div>
                                     </div>
