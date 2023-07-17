@@ -33,7 +33,7 @@
 }
 /* Header */
 .site_header {
-  background-image: url(images/header_background.png);
+  background-image: url(./header_background.png);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -164,7 +164,7 @@
 }
 /* professional_skills */
 .professional_skills .content_card_inner {
-  background-image: url(images/professionl_bg.png);
+  background-image: url(./professionl_bg.png);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -184,19 +184,19 @@
 .development_skills .web_dev,
 .development_skills .app_dev,
 .development_skills .ui_ux {
-  background-image: url(images/mobile_app_bg.png);
+  background-image: url(./mobile_app_bg.png);
   background-repeat: no-repeat;
   background-size: cover;
   padding: 22px;
 }
 .development_skills .web_dev {
-  background-image: url(images/web_dev_bg.png);
+  background-image: url(./web_dev_bg.png);
 }
 .development_skills .app_dev {
-  background-image: url(images/app_dev_bg.png);
+  background-image: url(./app_dev_bg.png);
 }
 .development_skills .ui_ux {
-  background-image: url(images/ui_ux_bg.png);
+  background-image: url(./ui_ux_bg.png);
 }
 /* our blog */
 .card {
@@ -251,11 +251,11 @@ footer button {
 }
 /* Blog Page */
 .blog_header {
-  background-image: url(images/blog_header_main_bg.png);
+  background-image: url(./blog_header_main_bg.png);
 }
 /* mobile_mockup page */
 .mobile_mockup_header {
-  background-image: url(images/mobile_mockup_header_bg.png);
+  background-image: url(./mobile_mockup_header_bg.png);
 }
 .mobile_mockup_div .content_card_inner {
   padding: 0;
@@ -273,11 +273,11 @@ footer button {
 }
 /* licences page */
 .licences_header {
-  background-image: url(images/licences_header_bg.png);
+  background-image: url(./licences_header_bg.png);
 }
 /* password protected page */
 .password_protected_header {
-  background-image: url(images/password_protected_header_bg.png);
+  background-image: url(./password_protected_header_bg.png);
 }
 .password_protected .professional_content,
 .changelog .professional_content {
@@ -291,14 +291,14 @@ footer button {
 }
 /* changelog page */
 .changelog_header {
-  background-image: url(images/changelog_header_bg.png);
+  background-image: url(./changelog_header_bg.png);
 }
 .changelog .professional_content input {
   padding: 18px 30px;
 }
 /* error page */
 .error_page_header {
-  background-image: url(images/404_header_bg.png);
+  background-image: url(./404_header_bg.png);
 }
 .error_img {
   width: 350px;
