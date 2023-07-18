@@ -5,7 +5,8 @@ import Home from './Page/Home'
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap/dist/js/bootstrap.js'
 import Navigation from './Component/Navigation'
-import UseState from './Component/Hooks/UseState'
+import IndexUseState from './Component/Hooks/useStateHook/IndexUseState'
+import ListofHooks from './Component/Hooks/ListofHooks'
 
 function App() {
 
@@ -15,7 +16,8 @@ function App() {
         <Navigation />
         <Routes>
           <Route exact path='/' element={< Home />}></Route>
-          <Route exact path='/hook' element={< UseState />}></Route>
+          <Route exact path='/hook' element={< ListofHooks />}></Route>
+          <Route exact path='/hook/usestate' element={<IndexUseState />}></Route>
         </Routes>
       </BrowserRouter>
     </>

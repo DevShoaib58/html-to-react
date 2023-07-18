@@ -59,9 +59,7 @@
   background-color: var(--black);
   color: var(--white);
 }
-.btn_light:hover {
-  border-color: 1px solid #000 !important;
-}
+
 .btn_dark:hover {
   color: var(--white);
 }

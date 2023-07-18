@@ -1,7 +1,8 @@
 import { useState } from "react";
 
-const UseState = () => {
+const UseStateCounter = () => {
     const [counter, setCounter] = useState(0);
+
     const increament = () => {
         setCounter((counter) => (counter) + 1)
     }
@@ -21,4 +22,4 @@ const UseState = () => {
     );
 };
 
-export default UseState;
+export default UseStateCounter;
