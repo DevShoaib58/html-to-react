@@ -4,7 +4,7 @@ const BasicJs = () => {
         const a = 10
         const b = 5
         const c = 3
-        return <fragment>  {a == b ? <h1>Hello</h1> : <h2>Bye{cnpm}</h2>}</fragment>;
+        return <fragment>  {a == b ? <h1>Hello</h1> : <h2>Bye{ }</h2>}</fragment>;
 
     }
     return (
