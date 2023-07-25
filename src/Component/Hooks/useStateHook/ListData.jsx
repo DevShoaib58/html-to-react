@@ -5,8 +5,11 @@ const ListData = () => {
     const [person, setPerson] = useState(data)
     const RemoveSelected = (id) => {
         console.log(id)
-        setPerson((previousData) => {
-            return previousData.filter((p) => p.id != id)
+        // setPerson((previousData) => {
+        //     return previousData.filter((p) => p.id != id)
+        // })
+        setPerson((newData) => {
+            return newData.filter((p) => p.id != id)
         })
     }
     const RemoveAll = () => {
